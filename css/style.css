@@ -1,5 +1,7 @@
 html {
 	scroll-behavior: smooth;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -12,8 +14,6 @@ span {
 	padding-right: 2px;
 	border-radius: 10%;
 }
-
-@media (min-width: 375px) {
 
 .navbar {
 	position: relative;
@@ -50,7 +50,6 @@ span {
 
 .form-inline .btn {
 	margin-left: 175px;
-	width: 100px;
 }
 
 .jumbotron {
@@ -83,12 +82,11 @@ span {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 	font-size: 40px;
 	margin-bottom: 30px;
-	font-size: 90px;
+	font-size: 70px;
 }
 
 #btn {
 	height: 60px;
-	width: 200px;
 }
 
 .jumbotron .display-4 span {
@@ -115,7 +113,8 @@ span {
 }
 
 .about img {
-	margin-left: 200px;
+	margin: auto;
+	display: block;
 }
 
 .pencapaian {
@@ -159,7 +158,8 @@ span {
 }
 
 .pencapaian img {
-	margin-left: 200px;
+	margin: auto;
+	display: block;
 	padding-bottom: 0px;
 }
 
@@ -268,7 +268,8 @@ span {
 
 .partner img {
 	height: 200px;
-	margin-left: 140px;
+	margin: auto;
+	display: block;
 	padding-bottom: 20px;
 }
 
@@ -324,7 +325,7 @@ footer {
 }
 
 #button {
-	width: 450px;
+	width: 380px;
 	height: 50px;
 }
 
@@ -343,7 +344,6 @@ footer {
 .footer p {
 	color: #ADADAD;
 	font-size: 18px;
-}
 }
 
 /*VERSI DESKTOP*/
