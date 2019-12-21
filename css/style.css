@@ -2,12 +2,18 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 span {
 	background-color: black;
 	color: white;
 	padding-right: 2px;
 	border-radius: 10%;
 }
+
+@media (min-width: 375px) {
 
 .navbar {
 	position: relative;
@@ -29,6 +35,22 @@ span {
 
 .navbar-nav {
 	font-weight: bold;
+	padding-top: 10px;
+}
+
+.navbar .nav-link {
+	border: 1px solid black;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.navbar .nav-item {
+	padding-bottom: 5px;
+}
+
+.form-inline .btn {
+	margin-left: 175px;
+	width: 100px;
 }
 
 .jumbotron {
@@ -206,13 +228,14 @@ span {
 }
 
 .partner {
-    background-image: url("../assets/img/partner.jpg");
+    background-image: url("../assets/img/partner1.jpg");
     height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 }
 
 .partner .container {
@@ -321,10 +344,42 @@ footer {
 	color: #ADADAD;
 	font-size: 18px;
 }
+}
 
 /*VERSI DESKTOP*/
 
 @media (min-width: 992px) {
+.navbar .nav-link {
+	border: 0 solid black;
+	border-radius: 0;
+	text-align: center;
+}
+
+.navbar .nav-item {
+	padding-bottom: 0;
+}
+
+.navbar-nav {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.navbar .nav-link {
+	border: 0 solid black;
+	border-radius: 0;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.navbar .nav-item {
+	padding-bottom: 10px;
+}
+
+.form-inline .btn {
+	margin-left: 0;
+	width: 70px;
+}
+
 .about h5 {
 	text-align: center;
 }
